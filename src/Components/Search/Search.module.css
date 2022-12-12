@@ -1,0 +1,170 @@
+.search {
+  width: 327px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.darkSearch {
+  width: 327px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #1e2a47;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.input {
+  font-family: inherit;
+  width: 72%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  background-color: #fefefe;
+
+  border: none;
+}
+
+.darkInput {
+  font-family: inherit;
+  width: 72%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  background-color: #1e2a47;
+
+  border: none;
+  color: #fff;
+}
+
+.darkInput::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchLogo {
+  margin-right: 5px;
+  fill: #0079ff;
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  border: none;
+  width: 84px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #0079ff;
+  color: #fff;
+  font-family: inherit;
+  line-height: 21px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #60abff;
+  cursor: pointer;
+}
+
+.errorMsg {
+  margin-right: 5px;
+  width: 35%;
+  font-size: 13px;
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .search {
+    width: 573px;
+    height: 69px;
+  }
+
+  .darkSearch {
+    width: 573px;
+    height: 69px;
+  }
+
+  .input {
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #fefefe;
+  }
+
+  .darkInput {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .searchLogo {
+    margin: 0 20px 0 5px;
+    fill: #0079ff;
+    width: 20px;
+    height: 20px;
+  }
+
+  button {
+    width: 106px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .errorMsg {
+    width: 25%;
+    font-size: 13px;
+    color: red;
+  }
+}
+
+@media (min-width: 1000px) {
+  .search {
+    width: 730px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .darkSearch {
+    width: 730px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .searchLogo {
+    margin: 0 15px 0 5px;
+    fill: #0079ff;
+    width: 20px;
+    height: 20px;
+  }
+
+  .input {
+    width: 80%;
+    height: 100%;
+  }
+
+  .darkInput {
+    width: 80%;
+    height: 100%;
+  }
+
+  .errorMsg {
+    width: 12%;
+    font-size: 13px;
+    color: red;
+  }
+}

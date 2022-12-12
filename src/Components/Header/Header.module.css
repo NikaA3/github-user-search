@@ -1,0 +1,87 @@
+.header {
+  margin-top: 31px;
+  width: 327px;
+  display: flex;
+  align-items: center;
+}
+
+.light {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #222731;
+  margin-right: auto;
+}
+
+.dark {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+  margin-right: auto;
+}
+
+.theme {
+  margin-left: -75px;
+}
+
+.moon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moon span {
+  color: #4b6a9b;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  margin-right: 10px;
+}
+.moonLogo {
+  fill: #4b6a9b;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.sun {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sun span {
+  color: #fff;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  margin-right: 10px;
+}
+
+.sunLogo {
+  width: 25px;
+  height: 25px;
+  fill: #fff;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin-top: 31px;
+    width: 573px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    margin-top: 31px;
+    width: 730px;
+    display: flex;
+    align-items: center;
+  }
+}
